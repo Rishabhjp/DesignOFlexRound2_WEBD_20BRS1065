@@ -227,6 +227,7 @@ nav {
     padding-left: 20px;
     margin-top: 9%;
     letter-spacing: 2px;
+    font-weight: bolder;
 }
 
 .home-content .home-content-button {
@@ -280,7 +281,7 @@ nav {
     color: #ff7200;
     font-size: 22px;
     background-color: #fff;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin: 2px;
     padding: 8px;
 }
@@ -492,6 +493,31 @@ nav {
 }
 
 
+/* -----footfall ---- */
+
+.footfall .btnn {
+    background: #2755C0;
+    background: -webkit-linear-gradient(top, #2755C0, #D802C4);
+    background: -moz-linear-gradient(top, #2755C0, #D802C4);
+    background: linear-gradient(to bottom, #2755C0, #D802C4);
+    border-radius: 15px;
+    transition: none;
+    height: 100px;
+    text-align: center;
+    margin: 10px 658px;
+    width: 200px;
+}
+
+.footfall .btnn a {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.footfall .btnn:hover {
+    background: #e07c29;
+}
+
+
 /* footer */
 
 .footer {
@@ -536,7 +562,7 @@ nav {
 /* -------About Us----- */
 
 .about {
-    height: 60vh;
+    height: 50vh;
     width: 100%;
     background-image: url(images/back-3.jpg);
     background-position: center;
@@ -550,9 +576,9 @@ nav {
     font-size: 100px;
     font-weight: 600;
     letter-spacing: 2px;
-    margin-top: 140px;
+    margin-top: 110px;
     text-shadow: 2px 2px rgb(2, 0, 0);
-    color: rgb(223, 235, 114);
+    color: rgb(160 244 209);
 }
 
 .about-us .row {
