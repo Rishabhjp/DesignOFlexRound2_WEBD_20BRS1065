@@ -531,3 +531,92 @@ nav {
 .footer .fa-heart-o {
     color: #f44336;
 }
+
+
+/* -------About Us----- */
+
+.about {
+    height: 50vh;
+    width: 100%;
+    background-image: url(images/main-back.1jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about h1 {
+    font-size: 100px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 110px;
+    text-shadow: 2px 2px black;
+    color: rgb(221, 215, 17);
+}
+
+.about-us .row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col img {
+    width: 100%;
+}
+
+.about-col h1 {
+    padding: 0;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 70px;
+}
+
+.about-col p {
+    padding: 15px 0 25px;
+    color: black;
+    font-size: 15px;
+    font-weight: 250;
+    line-height: 22px;
+}
+
+
+/* .about-col .btnn {
+    background: #2755C0;
+    background: -webkit-linear-gradient(top, #2755C0, #D802C4);
+    background: -moz-linear-gradient(top, #2755C0, #D802C4);
+    background: linear-gradient(to bottom, #2755C0, #D802C4);
+    width: 200px;
+} */
+
+.about-col .btnn a {
+    color: white;
+}
+
+.about-col .btnn {
+    background: #2755C0;
+    background: -webkit-linear-gradient(top, #2755C0, #D802C4);
+    background: -moz-linear-gradient(top, #2755C0, #D802C4);
+    background: linear-gradient(to bottom, #2755C0, #D802C4);
+    height: 60px;
+    border-radius: 15px;
+    width: 200px;
+    transition: none;
+}
+
+.about-col .btnn:hover {
+    background: #e07c29;
+}
