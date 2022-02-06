@@ -155,10 +155,12 @@ body {
 }
 
 .nav-logo {
-    color: white;
+    color: rgb(191, 104, 104);
     font-family: 'Work Sans', sans-serif;
     font-size: 3em;
     letter-spacing: 2px;
+    text-shadow: 2px 2px yellow;
+    font-weight: bolder;
 }
 
 nav {
@@ -307,7 +309,7 @@ nav {
     font-family: Arial;
 }
 
-.form .btnn {
+.btnn {
     width: 240px;
     height: 40px;
     background: #ff7200;
@@ -424,6 +426,25 @@ nav {
     border: 1px solid gray;
 }
 
+.product-types .btnn a {
+    color: white;
+}
+
+.product-types .btnn {
+    background: #2755C0;
+    background: -webkit-linear-gradient(top, #2755C0, #D802C4);
+    background: -moz-linear-gradient(top, #2755C0, #D802C4);
+    background: linear-gradient(to bottom, #2755C0, #D802C4);
+    height: 60px;
+    border-radius: 15px;
+    width: 200px;
+    transition: none;
+}
+
+.product-types .btnn:hover {
+    background: #e07c29;
+}
+
 
 /* PRODUCT DESCRIPTION */
 
@@ -468,4 +489,45 @@ nav {
 
 .testimonial-col .fa {
     color: yellow;
+}
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px dashed black;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Roboto Condensed';
+    background-image: url(images/footer-background-01.jpg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    color: white;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.footer .icons .fa {
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    transition: 0.3s ease;
+}
+
+.footer .icons .fa:hover {
+    color: white;
+}
+
+.footer .fa-heart-o {
+    color: #f44336;
 }
