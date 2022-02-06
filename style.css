@@ -85,6 +85,9 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -134,6 +137,12 @@ table {
 
 
 /* Home Page  */
+
+html,
+body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 
 .home {
     min-height: 100vh;
@@ -298,7 +307,7 @@ nav {
     font-family: Arial;
 }
 
-.btnn {
+.form .btnn {
     width: 240px;
     height: 40px;
     background: #ff7200;
@@ -358,6 +367,77 @@ nav {
 }
 
 
-/* .row {
-    
-} */
+/* Product-Types amd Product Review */
+
+.product-types {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.product-types h1,
+.description h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.product-types p,
+.description p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.product-types .row,
+.description .row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-types .course-col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.product-types h3,
+.description h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+
+/* PRODUCT DESCRIPTION */
+
+.description {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.testimonial-col {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    cursor: pointer;
+    padding: 25px;
+    display: flex;
+}
+
+.testimonial-col img {
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
